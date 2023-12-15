@@ -95,8 +95,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 14796658,
-            "dateModified": "2023-11-16",
+            "contentSize": 15118184,
+            "dateModified": "2023-12-15",
             "encodingFormat": "text/csv",
             "name": "trove-oral-histories.csv",
             "sdDatePublished": "2023-12-15"
@@ -107,8 +107,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 86536,
-            "dateModified": "2023-11-18",
+            "contentSize": 86036,
+            "dateModified": "2023-12-15",
             "encodingFormat": "text/plain",
             "name": "trove-oral-history-series.txt",
             "sdDatePublished": "2023-12-15"
@@ -146,7 +146,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2023-11-16",
+            "endDate": "2023-12-15",
             "instrument": {
                 "@id": "harvest-oral-histories.ipynb"
             },
@@ -163,7 +163,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2023-11-18",
+            "endDate": "2023-12-15",
             "instrument": {
                 "@id": "save-series.ipynb"
             },
