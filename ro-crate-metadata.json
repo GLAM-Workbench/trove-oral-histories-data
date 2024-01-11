@@ -9,28 +9,36 @@
                     "@id": "0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2023-12-15",
-            "description": "Metadata describing oral history collections held by the National Library of Australia, harvested from Trove.",
+            "datePublished": "2024-01-11T05:32:27+00:00",
+            "description": "A GLAM Workbench data repository",
             "hasPart": [
-                {
-                    "@id": "harvest-oral-histories.ipynb"
-                },
-                {
-                    "@id": "save-series.ipynb"
-                },
                 {
                     "@id": "trove-oral-histories.csv"
                 },
                 {
+                    "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb"
+                },
+                {
                     "@id": "trove-oral-history-series.txt"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb"
+                },
+                {
+                    "@id": "trove-oral-histories-schema.json"
                 }
             ],
+            "isBasedOn": {
+                "@id": "https://github.com/GLAM-Workbench/trove-music/"
+            },
             "license": {
                 "@id": "https://spdx.org/licenses/MIT"
             },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-music"
+            },
             "name": "trove-oral-histories-data",
-            "url": "https://github.com/GLAM-Workbench/trove-music-data",
-            "version": "v1.0"
+            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -46,6 +54,23 @@
             }
         },
         {
+            "@id": "trove-oral-histories.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "conformsTo": {
+                "@id": "trove-oral-histories-schema.json"
+            },
+            "contentSize": 15118184,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "trove-oral-histories.csv",
+            "sdDatePublished": "2024-01-11",
+            "size": 20083,
+            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv"
+        },
+        {
             "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb",
             "@type": [
                 "File",
@@ -56,7 +81,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music/",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -65,7 +90,21 @@
             "name": "Harvest oral histories metadata",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
-            }
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb"
+        },
+        {
+            "@id": "trove-oral-history-series.txt",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 86036,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/plain",
+            "name": "trove-oral-history-series.txt",
+            "sdDatePublished": "2024-01-11",
+            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-history-series.txt"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb",
@@ -78,7 +117,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music/",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -87,36 +126,41 @@
             "name": "Save a list of oral history collections",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
-            }
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb"
         },
         {
-            "@id": "https://github.com/GLAM-Workbench/trove-music-data/blob/main/trove-oral-histories.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 15118184,
-            "dateModified": "2023-12-15",
-            "encodingFormat": "text/csv",
-            "name": "trove-oral-histories.csv",
-            "sdDatePublished": "2023-12-15"
+            "@id": "https://glam-workbench.net/trove-music",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net/"
+            },
+            "name": "Trove music, sound, and oral histories",
+            "url": "https://glam-workbench.net/trove-music"
         },
         {
-            "@id": "https://github.com/GLAM-Workbench/trove-music-data/blob/main/trove-oral-history-series.txt",
-            "@type": [
-                "File",
-                "Dataset"
+            "@id": "https://glam-workbench.net/",
+            "@type": "CreativeWork",
+            "author": [
+                {
+                    "@id": "0000-0001-7956-4498"
+                }
             ],
-            "contentSize": 86036,
-            "dateModified": "2023-12-15",
-            "encodingFormat": "text/plain",
-            "name": "trove-oral-history-series.txt",
-            "sdDatePublished": "2023-12-15"
+            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
+            "name": "GLAM Workbench",
+            "url": "https://glam-workbench.net/"
         },
         {
             "@id": "https://orcid.org/0000-0001-7956-4498",
             "@type": "Person",
-            "name": "Sherratt, Tim"
+            "name": "Sherratt, Tim",
+            "orcid": "https://orcid.org/0000-0001-7956-4498"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-music/",
+            "@type": "Dataset",
+            "name": "trove-music",
+            "url": "https://github.com/GLAM-Workbench/trove-music/"
         },
         {
             "@id": "https://spdx.org/licenses/MIT",
@@ -148,7 +192,7 @@
             },
             "endDate": "2023-12-15",
             "instrument": {
-                "@id": "harvest-oral-histories.ipynb"
+                "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb"
             },
             "name": "Run of notebook: harvest-oral-histories.ipynb",
             "result": [
@@ -165,7 +209,7 @@
             },
             "endDate": "2023-12-15",
             "instrument": {
-                "@id": "save-series.ipynb"
+                "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb"
             },
             "name": "Run of notebook: save-series.ipynb",
             "object": [
@@ -180,13 +224,15 @@
             ]
         },
         {
-            "@id": "#create_version_v1_0",
-            "@type": "UpdateAction",
-            "actionStatus": {
-                "@id": "http://schema.org/CompletedActionStatus"
+            "@id": "trove-oral-histories-schema.json",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://specs.frictionlessdata.io/table-schema/"
             },
-            "endDate": "2023-12-15",
-            "name": "Create version v1.0"
+            "encodingFormat": "application/json",
+            "name": "Frictionless Table Schema for trove-oral-histories.csv dataset"
         }
     ]
 }

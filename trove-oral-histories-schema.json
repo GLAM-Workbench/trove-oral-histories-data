@@ -1,0 +1,114 @@
+{
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "description": "title of the oral history"
+    },
+    {
+      "name": "contributor",
+      "type": "string",
+      "description": "includes both interviewers and interviewees; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "publisher",
+      "type": "string",
+      "description": "mostly empty but can include some publication details; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "description": "date the oral history was recorded; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "description": "for example `performed music`, `spoken word`; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "format",
+      "type": "string",
+      "description": "for example `Sound recording`, `online resource`; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "extent",
+      "type": "string",
+      "description": "usually number of files/reels/tapes, sometimes includes duration; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "language",
+      "type": "string",
+      "description": "language of the recording; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "subject",
+      "type": "string",
+      "description": "subjects of interview; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "spatial",
+      "type": "string",
+      "description": "associated places (mostly using [Library of Congress geographic area codes](https://www.loc.gov/marc/geoareas/gacs_code.html)); multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "is_part_of",
+      "type": "string",
+      "description": "collections or projects that this interview belongs to; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "identifier",
+      "type": "string",
+      "description": "library identifiers; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "rights",
+      "type": "string",
+      "description": "copyright and licensing information; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "work_url",
+      "type": "string",
+      "description": "link to work record in Trove; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "work_type",
+      "type": "string",
+      "description": "Trove work format, for example `Sound/Interview, lecture, talk`; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "fulltext_url",
+      "type": "string",
+      "description": "link to audio player (if digitised)"
+    },
+    {
+      "name": "fulltext_url_text",
+      "type": "string",
+      "description": "text of link to audio player; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "catalogue_url",
+      "type": "string",
+      "description": "link to NLA catalogue entry; multiple values separated by <code>&#124;</code> symbol"
+    },
+    {
+      "name": "summary",
+      "type": "integer",
+      "description": "text summary is available for download – `0` for no, `1` for yes"
+    },
+    {
+      "name": "transcript",
+      "type": "integer",
+      "description": "text transcript is available for download – `0` for no, `1` for yes"
+    },
+    {
+      "name": "sessions",
+      "type": "integer",
+      "description": "number of recording sessions"
+    },
+    {
+      "name": "duration",
+      "type": "integer",
+      "description": "total duration of recordings (in seconds)"
+    }
+  ]
+}
