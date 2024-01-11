@@ -68,7 +68,27 @@
             "name": "trove-oral-histories.csv",
             "sdDatePublished": "2024-01-11",
             "size": 20083,
-            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv"
+            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv",
+            "workExample": [
+                {
+                    "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of"
+                },
+                {
+                    "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html"
+                }
+            ]
+        },
+        {
+            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of",
+            "@type": "CreativeWork",
+            "name": "Explore using Datasette",
+            "url": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of"
+        },
+        {
+            "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html",
+            "@type": "CreativeWork",
+            "name": "Visualised in the *Trove Data Guide*",
+            "url": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb",

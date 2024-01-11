@@ -38,6 +38,13 @@ for datafile in crate.get_by_type(["File", "Dataset"]):
     if rows := datafile.get("size"):
         stats["number of rows"] = rows
     details += pd.DataFrame([stats]).T.style.format(thousands=",").hide(axis=1).to_html() + "\n\n"
+
+    if "workExample" in datafile:
+        details += "### Examples of use\n\n"
+        for example_id in datafile["workExample"]:
+            example = crate.get(example_id["@id"]).properties()
+            details += f"- [{example['name']}]({example['url']})\n"
+
     if "conformsTo" in datafile:
         details += "### Columns\n\n"
         with Path(datafile["conformsTo"]["@id"]).open() as json_file:
