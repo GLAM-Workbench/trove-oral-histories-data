@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import pandas as pd
 from humanize import naturalsize
+import re
 
 def get_create_action(crate, datafile):
     actions = crate.get_by_type("CreateAction")
@@ -48,4 +49,5 @@ md += details
 
 md += "\n\n----\nCreated by [Tim Sherratt](https://timsherratt.au) for the [GLAM Workbench](https://glam-workbench.net)"
 
+md = re.sub(r'<style type="text/css">\s*</style>', '', md)
 Path("README.md").write_text(md)
