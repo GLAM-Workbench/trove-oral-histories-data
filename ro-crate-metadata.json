@@ -9,7 +9,7 @@
                     "@id": "0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-01-11T05:32:27+00:00",
+            "datePublished": "2024-01-12",
             "description": "A GLAM Workbench data repository",
             "hasPart": [
                 {
@@ -38,7 +38,8 @@
                 "@id": "https://glam-workbench.net/trove-music"
             },
             "name": "trove-oral-histories-data",
-            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/"
+            "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/",
+            "version": "v1.0"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -77,18 +78,6 @@
                     "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html"
                 }
             ]
-        },
-        {
-            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of",
-            "@type": "CreativeWork",
-            "name": "Explore using Datasette",
-            "url": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of"
-        },
-        {
-            "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html",
-            "@type": "CreativeWork",
-            "name": "Visualised in the *Trove Data Guide*",
-            "url": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb",
@@ -148,6 +137,29 @@
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
             "url": "https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb"
+        },
+        {
+            "@id": "trove-oral-histories-schema.json",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://specs.frictionlessdata.io/table-schema/"
+            },
+            "encodingFormat": "application/json",
+            "name": "Frictionless Table Schema for trove-oral-histories.csv dataset"
+        },
+        {
+            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of",
+            "@type": "CreativeWork",
+            "name": "Explore using Datasette",
+            "url": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of"
+        },
+        {
+            "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html",
+            "@type": "CreativeWork",
+            "name": "Visualised in the *Trove Data Guide*",
+            "url": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html"
         },
         {
             "@id": "https://glam-workbench.net/trove-music",
@@ -244,15 +256,13 @@
             ]
         },
         {
-            "@id": "trove-oral-histories-schema.json",
-            "@type": [
-                "File"
-            ],
-            "conformsTo": {
-                "@id": "https://specs.frictionlessdata.io/table-schema/"
+            "@id": "#create_version_v1_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
             },
-            "encodingFormat": "application/json",
-            "name": "Frictionless Table Schema for trove-oral-histories.csv dataset"
+            "endDate": "2024-01-12",
+            "name": "Create version v1.0"
         }
     ]
 }

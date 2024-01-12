@@ -2,6 +2,8 @@
 
 *A GLAM Workbench data repository*
 
+CURRENT VERSION: v1.0
+
 These datasets were generated using notebooks in the [trove-music](https://github.com/GLAM-Workbench/trove-music/) repository.
 
 For more information and documentation see the [Trove music, sound, and oral histories](https://glam-workbench.net/trove-music) section of the [GLAM Workbench](https://glam-workbench.net).
@@ -16,29 +18,29 @@ For more information and documentation see the [Trove music, sound, and oral his
 ### [trove-oral-histories.csv](https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv)
 
 
-<table id="T_6ea86">
+<table id="T_3933b">
   <thead>
   </thead>
   <tbody>
     <tr>
-      <th id="T_6ea86_level0_row0" class="row_heading level0 row0" >date harvested</th>
-      <td id="T_6ea86_row0_col0" class="data row0 col0" >2023-12-15</td>
+      <th id="T_3933b_level0_row0" class="row_heading level0 row0" >date harvested</th>
+      <td id="T_3933b_row0_col0" class="data row0 col0" >2023-12-15</td>
     </tr>
     <tr>
-      <th id="T_6ea86_level0_row1" class="row_heading level0 row1" >file size</th>
-      <td id="T_6ea86_row1_col0" class="data row1 col0" >15.1 MB</td>
+      <th id="T_3933b_level0_row1" class="row_heading level0 row1" >file size</th>
+      <td id="T_3933b_row1_col0" class="data row1 col0" >15.1 MB</td>
     </tr>
     <tr>
-      <th id="T_6ea86_level0_row2" class="row_heading level0 row2" >format</th>
-      <td id="T_6ea86_row2_col0" class="data row2 col0" >text/csv</td>
+      <th id="T_3933b_level0_row2" class="row_heading level0 row2" >format</th>
+      <td id="T_3933b_row2_col0" class="data row2 col0" >text/csv</td>
     </tr>
     <tr>
-      <th id="T_6ea86_level0_row3" class="row_heading level0 row3" >created by</th>
-      <td id="T_6ea86_row3_col0" class="data row3 col0" ><a href='https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb'>Harvest oral histories metadata</a></td>
+      <th id="T_3933b_level0_row3" class="row_heading level0 row3" >created by</th>
+      <td id="T_3933b_row3_col0" class="data row3 col0" ><a href='https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-oral-histories.ipynb'>Harvest oral histories metadata</a></td>
     </tr>
     <tr>
-      <th id="T_6ea86_level0_row4" class="row_heading level0 row4" >number of rows</th>
-      <td id="T_6ea86_row4_col0" class="data row4 col0" >20,083</td>
+      <th id="T_3933b_level0_row4" class="row_heading level0 row4" >number of rows</th>
+      <td id="T_3933b_row4_col0" class="data row4 col0" >20,083</td>
     </tr>
   </tbody>
 </table>
@@ -78,25 +80,25 @@ For more information and documentation see the [Trove music, sound, and oral his
 ### [trove-oral-history-series.txt](https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-history-series.txt)
 
 
-<table id="T_d2a5a">
+<table id="T_c10c3">
   <thead>
   </thead>
   <tbody>
     <tr>
-      <th id="T_d2a5a_level0_row0" class="row_heading level0 row0" >date harvested</th>
-      <td id="T_d2a5a_row0_col0" class="data row0 col0" >2023-12-15</td>
+      <th id="T_c10c3_level0_row0" class="row_heading level0 row0" >date harvested</th>
+      <td id="T_c10c3_row0_col0" class="data row0 col0" >2023-12-15</td>
     </tr>
     <tr>
-      <th id="T_d2a5a_level0_row1" class="row_heading level0 row1" >file size</th>
-      <td id="T_d2a5a_row1_col0" class="data row1 col0" >86.0 kB</td>
+      <th id="T_c10c3_level0_row1" class="row_heading level0 row1" >file size</th>
+      <td id="T_c10c3_row1_col0" class="data row1 col0" >86.0 kB</td>
     </tr>
     <tr>
-      <th id="T_d2a5a_level0_row2" class="row_heading level0 row2" >format</th>
-      <td id="T_d2a5a_row2_col0" class="data row2 col0" >text/plain</td>
+      <th id="T_c10c3_level0_row2" class="row_heading level0 row2" >format</th>
+      <td id="T_c10c3_row2_col0" class="data row2 col0" >text/plain</td>
     </tr>
     <tr>
-      <th id="T_d2a5a_level0_row3" class="row_heading level0 row3" >created by</th>
-      <td id="T_d2a5a_row3_col0" class="data row3 col0" ><a href='https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb'>Save a list of oral history collections</a></td>
+      <th id="T_c10c3_level0_row3" class="row_heading level0 row3" >created by</th>
+      <td id="T_c10c3_row3_col0" class="data row3 col0" ><a href='https://github.com/GLAM-Workbench/trove-music/blob/master/save-series.ipynb'>Save a list of oral history collections</a></td>
     </tr>
   </tbody>
 </table>

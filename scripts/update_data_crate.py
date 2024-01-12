@@ -7,7 +7,7 @@ import argparse
 from frictionless import describe, Resource
 from pathlib import Path
 import datetime
-from rocrate.rocrate import ROCrate
+from rocrate.rocrate import ROCrate, ContextEntity
 import os
 
 schema_props = {
