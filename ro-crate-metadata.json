@@ -72,7 +72,7 @@
             "url": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv",
             "workExample": [
                 {
-                    "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of"
+                    "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title,contributor,is_part_of&drop=publisher,work_type,fulltext_url_text"
                 },
                 {
                     "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html"
@@ -150,10 +150,10 @@
             "name": "Frictionless Table Schema for trove-oral-histories.csv dataset"
         },
         {
-            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of",
+            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title,contributor,is_part_of&drop=publisher,work_type,fulltext_url_text",
             "@type": "CreativeWork",
             "name": "Explore using Datasette",
-            "url": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title&fts=contributor&fts=is_part_of"
+            "url": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv&fts=title,contributor,is_part_of&drop=publisher,work_type,fulltext_url_text"
         },
         {
             "@id": "https://tdg.glam-workbench.net/other-digitised-resources/oral-histories/overview.html",
